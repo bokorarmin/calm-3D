@@ -1,74 +1,63 @@
-# React + TypeScript + Vite
+# Calm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A 3D atmospheric exploration experience built with Three.js, React, and TypeScript**
 
-Currently, two official plugins are available:
+> *"Alone in the rain"*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+** Live Demo:** [calm.bokorarmin.com](https://calm.bokorarmin.com)
 
-## React Compiler
+##  Experience Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Step into three hauntingly beautiful nocturnal environments during a relentless downpour. This immersive 3D experience combines atmospheric visuals, spatial audio, and intuitive controls to create a contemplative journey through rain-drenched landscapes.
 
-## Expanding the ESLint configuration
+### ✨ Key Features
+- **Three Distinct Environments**: Explore urban alleys, dense forests, and mysterious transitional spaces
+- **Dynamic Rain System**: Realistic precipitation with audio-visual synchronization
+- **Atmospheric Audio**: 3D spatial sound design with layered rain, ambient, and environmental effects
+- **First-Person Navigation**: Smooth movement through each location
+- **Dark Aesthetic**: Moody lighting and shadow play for maximum immersion
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  Locations
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+###  Urban District
+Navigate through rain-slicked city streets flanked by towering buildings, flickering neon signs, and overflowing alleyways. Watch water cascade from fire escapes and collect in shimmering puddles.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+###  Forest Clearing
+Wander through a dense woodland where rain patters on leaves, drips from branches, and soaks into mossy ground. Ancient trees stand as silent sentinels in the downpour.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🕳️ Liminal Space
+A transitional zone where environments blend—part architecture, part nature, wholly mysterious.
+
+##  Audio Experience
+
+** HEADPHONES RECOMMENDED | VOLUME UP ADVISED**
+
+The rain audio is essential to the experience. You'll hear:
+- **Stereo rain layers** (heavy downpour, individual drips, distant showers)
+- **Environmental reverb** unique to each location
+- **Subtle ambient cues** that respond to your position
+- **Spatial audio effects** for maximum immersion
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm or pnpm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bokorarmin/calm-3D
+cd midnight-wanderer
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Install packages:
+```bash
+  pnpm i
 ```
-# calm-3D
+
+3. Run application:
+```bash
+  pnpm dev
+```
