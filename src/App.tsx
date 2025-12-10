@@ -206,6 +206,21 @@ export default function App() {
           FOREST
         </button>
       </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: "20px",
+          right: "2%",
+          display: "flex",
+          zIndex: 10,
+        }}
+      >
+        <caption
+          style={{ color: "white", fontFamily: "monospace", fontSize: "15px" }}
+        >
+          Turn the sound up
+        </caption>
+      </div>
     </div>
   );
 }
