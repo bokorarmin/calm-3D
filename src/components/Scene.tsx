@@ -1,8 +1,8 @@
 import { useFrame } from "@react-three/fiber";
 import { useRef, useState } from "react";
 
-import { CityBuildings } from "../sorroundings/CityBuildings";
-import { Trees } from "../sorroundings/Trees";
+import { CityBuildings } from "../sorroundings/city/CityBuildings";
+import { Trees } from "../sorroundings/forest/Trees";
 
 import { Fog } from "./Fog";
 import { Ground } from "./Ground";
@@ -62,6 +62,7 @@ export const Scene = ({ environment }: SceneProps) => {
 
   return (
     <>
+      {/* <NightSky /> */}
       <Fog />
       <Lights lightningIntensity={lightningIntensity} />
       <Rain intensity={300} onDropHit={handleDropHit} />
