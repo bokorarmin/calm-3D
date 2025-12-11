@@ -2,15 +2,13 @@
 
 **A 3D atmospheric exploration experience built with Three.js, React, and TypeScript**
 
-> *"Alone in the rain"*
-
 ** Live Demo:** [calm.bokorarmin.com](https://calm.bokorarmin.com)
 
 ##  Experience Overview
 
 Step into three hauntingly beautiful nocturnal environments during a relentless downpour. This immersive 3D experience combines atmospheric visuals, spatial audio, and intuitive controls to create a contemplative journey through rain-drenched landscapes.
 
-### ✨ Key Features
+### Key Features
 - **Three Distinct Environments**: Explore urban alleys, dense forests, and mysterious transitional spaces
 - **Dynamic Rain System**: Realistic precipitation with audio-visual synchronization
 - **Atmospheric Audio**: 3D spatial sound design with layered rain, ambient, and environmental effects
@@ -25,7 +23,7 @@ Navigate through rain-slicked city streets flanked by towering buildings, flicke
 ###  Forest Clearing
 Wander through a dense woodland where rain patters on leaves, drips from branches, and soaks into mossy ground. Ancient trees stand as silent sentinels in the downpour.
 
-### 🕳️ Liminal Space
+### Liminal Space
 A transitional zone where environments blend—part architecture, part nature, wholly mysterious.
 
 ##  Audio Experience
